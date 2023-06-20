@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	int n;
+	printf("enyer a num");
+	scanf("%d",&n);
+	if(n%2==0)
+	printf("%dthe number is even",n);
+	else
+	printf("%dthe number is odd",n);
+}
