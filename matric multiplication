@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main(){
+	int a[2][2],b[2][2],c[2][2],i,j,n,m;
+	printf("enter the row size:");
+	scanf("%d",&n);
+	printf("enter the second matrcic:");
+	scanf("%d",&m);
+	printf("enter first matric elements:");
+	for(i=0;i<n;i++){
+		for(j=0;j<m;j++){
+			scanf("%d",&a[i][j]);
+    	}
+	}
+	printf("enter first matric elements:");
+	for(i=0;i<n;i++){
+		for(j=0;j<m;j++){
+			scanf("%d",&b[i][j]);
+    	}
+	}
+	for(i=0;i<n;i++){
+		for(j=0;j<m;j++){
+			c[i][j]=a[i][j]+b[i][j];
+		}
+	}
+	printf("mul of two matrix elements:");
+	for(i=0;i<n;i++){
+		for(j=0;j<m;j++){
+			printf("%d",c[i][j]);
+			printf(" ");
+		}
+		printf("\n");
+	}
+	
+	
+	
+	
+	
+	
+}
